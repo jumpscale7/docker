@@ -20,7 +20,7 @@ do.installDocker()
 url="https://github.com/Jumpscale/baseimage-docker"
 do.pullGitRepo(url,dest=None,login=None,passwd=None,depth=None,ignorelocalchanges=False,reset=False,branch="master")
 
-cmd="cd /opt/code/github/jumpscale/docker/image_mc;docker build -t despiegk/mc:1.0 ."
+cmd="cd /opt/code/github/jumpscale/docker/image_mc;docker build -t despiegk/mc ."
 do.executeInteractive(cmd)
 
 
