@@ -7,4 +7,4 @@ set -ex
 
 apt-get install mc curl git ssh python2.7 python-requests -y
 
-curl https://raw.githubusercontent.com/Jumpscale/docker/master/install/bootstrap.py | python 
+curl https://raw.githubusercontent.com/Jumpscale/docker/master/install/bootstrap_js.py | python 
