@@ -1,4 +1,5 @@
-FROM despiegk:mc
+FROM despiegk/mc
+
 MAINTAINER despiegk <kristof@incubaid.com>
 #we started from https://github.com/phusion/baseimage-docker
 #lots of credits to phusion
