@@ -43,4 +43,12 @@ docker login
 docker push despiegk/mc
 ```
 
+troubleshooting
+===============
+certain hosting providers install a custom kernel which is not compatible with docker
+please install the stock kernel by doing
+```
+jpackage install -n ubuntukernel
+
+```
 
