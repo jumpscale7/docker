@@ -9,3 +9,8 @@ cd /tmp;wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py
 cd /tmp;python get-pip.py
 apt-get install libmhash2 libpython-all-dev python-redis python-hiredis -y
 
+#change passwd
+echo 'root:gig1234'|chpasswd
+
+
+
