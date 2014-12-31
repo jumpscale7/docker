@@ -19,6 +19,13 @@ curl https://raw.githubusercontent.com/Jumpscale/docker/master/install/build_mc.
 
 ```
 
+to manually build (after checking out the docker repo which above cmd does)
+```
+cd /opt/code/github/jumpscale/docker/image_mc
+docker build -t despiegk/mc
+```
+
+
 base image with jumpscale starting from mc image above
 -------------------------------------------
 
