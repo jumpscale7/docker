@@ -10,7 +10,7 @@ cd /tmp;python get-pip.py
 apt-get install libmhash2 libpython-all-dev python-redis python-hiredis -y
 
 #change passwd
-echo 'root:gig1234'|chpasswd
+echo -e "gig1234\ngig1234" | (passwd root)
 
 
 
