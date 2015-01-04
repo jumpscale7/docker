@@ -5,6 +5,7 @@ set -x
 
 
 $minimal_apt_get_install mc python-git git ssh python2.7 python-requests python-apt openssl ca-certificates wget rsync -y
+$minimal_apt_get_install byobu -y
 cd /tmp;wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py
 cd /tmp;python get-pip.py
 
